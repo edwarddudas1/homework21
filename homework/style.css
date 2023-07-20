@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.gradient{
+    border-radius: 0px 0px 6px 6px;
+    width: 500px;
+    height: 200px;
+    background-image: linear-gradient(to top, red, blue, green,yellow,orange,purple);
+    box-shadow: 0px 2px 1px red, 0px 5px 3px blue, 0px 10px 4px green, 0px 16px 13px rgb(209, 69, 93), 0px 27px 19px yellow, 0px 57px 31px rgb(20, 10, 109);
+}
